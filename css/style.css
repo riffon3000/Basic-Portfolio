@@ -12,9 +12,10 @@ html, body {
 }
 
 header {
+    padding: 40px;
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
-    border-color: #cccccc;
     margin-bottom: 20px;
 }
 
@@ -26,8 +27,14 @@ nav {
     background: black;
 }
 
+article {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 section {
-    background: #ebebeb;
+    background: #ffffff;
 }
 
 footer {
@@ -38,12 +45,12 @@ footer {
     height: 50px;
 }
 
-#left {
+.left {
     float: left;
-    width: 50%;
+    width: 30%;
 }
 
-#right {
+.right {
     float: right;
-    width: 40%;
+    width: 10%;
 }
